@@ -5,7 +5,7 @@
 #include<stdio.h>
 
 #define BUF_LEN 1028
-#define SERVER_PORT 80,
+#define SERVER_PORT 80
 
 //定义好的html页面，实际情况下web server基本是从本地文件系统读取html文件 
 const static char http_error_hdr[] = "HTTP/1.1 404 Not Found\r\nContent-type: text/html\r\n\r\n";
